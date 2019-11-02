@@ -1,0 +1,64 @@
+# Site settings
+title: Pranay Patel
+email: www.pranay1337.com@gmail.com
+url: https://pranaypatel512.github.io
+description: ""
+keywords: "Pranay - PranayPatel - BooleanCoder - dearpranay - pranaypatel512 - pranaypatel_"
+skills: "Android - Kotlin - Firebase - Flutter - IOT - Cooking"
+meta_author: Patel Pranay
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: pranaypatel
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 092F42 #80B3FF
+  primary-rgb: "44, 62, 80" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Pranay Patel
+  location: Location
+  social: Check me on
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/pranaypatel_
+  - title: facebook
+    url: https://facebook.com/dearpranay
+  - title: stack-overflow
+    url: https://stackoverflow.com/users/2949612/pranay
+  - title: github
+    url: http://github.com/pranaypatel512
+  - title: linkedin
+    url: https://www.instagram.com/dearpranay
+
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Ahmedabad
+  - line: Gujarat, India
+
+# Credits content
+credits: 'Theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
