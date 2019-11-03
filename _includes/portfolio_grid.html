@@ -21,6 +21,13 @@
                         </a>
                     </div>
                 {% endfor %}
-            </div>
+            </div>  
+            <div class="row">
+                    {% for post in site.posts %}
+                    <div class="col-sm-4 portfolio-item" 
+                    style="color: #3DDB86; font-size: 22pt; text-align: center;font-family: Candara;">
+                            {{ post.category }}</div>
+                    {% endfor %}
+                </div>        
         </div>
     </section>

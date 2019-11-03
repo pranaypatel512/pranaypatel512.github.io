@@ -58,6 +58,35 @@ hr.star-primary:after {
     font-size: 2em;
 }
 
+hr.email-light,
+hr.email-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    overflow: visible;
+}
+
+hr.email-light:after,
+hr.email-primary:after {
+    content: "\f0e0";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+hr.email-light{
+    border-color: #fff;   
+}
+hr.email-light:after {
+    color: #fff;
+    background-color: #{{ site.color.primary }};
+}
+
 hr.star-light {
     border-color: #fff;
 }
